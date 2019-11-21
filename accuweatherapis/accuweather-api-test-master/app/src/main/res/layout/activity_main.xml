@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblCity"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="City: "
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/lblCity"/>
+
+    <TextView
+        android:id="@+id/lblKey"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Location Key: "
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="75dp"/>
+    <TextView
+        android:id="@+id/txtKey"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@+id/lblKey"/>
+
+
+    <TextView
+        android:id="@+id/lblTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Temp (F): "
+        android:textSize="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"/>
+    <TextView
+        android:id="@+id/txtTemp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:textSize="45dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@+id/lblTemp"/>
+
+    <TextView
+        android:id="@+id/lblWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Weather: "
+        android:textSize="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="350dp"/>
+    <TextView
+        android:id="@+id/txtWeather"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="back"/>
+
+</RelativeLayout>
